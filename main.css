@@ -1,0 +1,128 @@
+/*
+ made by notchyves : https://github.com/notchyves/ore-ui-stylesheet
+
+ button.ore-ui, background-color is main color of button
+ button.ore-ui, border is border of the entire button
+ button.ore-ui::before, is border of inner bottom border
+ button.ore-ui::after, is border of inner border (other than bottom)
+*/
+
+button.ore-ui.green {
+  position: relative;
+  display: inline-block;
+  padding: 10px 48px;
+  background-color: #3c8526;
+  border: 3px solid #191d1e;
+  color: white;
+}
+
+button.ore-ui.green::after {
+  content: '';
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  height: 3px;
+  top: calc(100% - 3px);
+  background-color: #204c12;
+}
+
+button.ore-ui.green::before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  width: calc(100% - 6px);
+  height: calc(100% - 6px);
+  top: 0px;
+  border: solid 3px #659f50;
+}
+
+button.ore-ui.white {
+  position: relative;
+  display: inline-block;
+  padding: 10px 48px;
+  background-color: #d0d1d5;
+  border: 3px solid #191d1e;
+  color: black;
+}
+
+button.ore-ui.white::after {
+  content: '';
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  height: 3px;
+  top: calc(100% - 3px);
+  background-color: #4d4c51;
+}
+
+button.ore-ui.white::before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  width: calc(100% - 6px);
+  height: calc(100% - 6px);
+  top: 0px;
+  border: solid 3px #e5ebeb;
+}
+
+button.ore-ui.gray {
+  position: relative;
+  display: inline-block;
+  padding: 10px 48px;
+  background-color: #48494d;
+  border: 3px solid #191d1e;
+  color: white;
+}
+
+button.ore-ui.gray::after {
+  content: '';
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  height: 3px;
+  top: calc(100% - 3px);
+  background-color: #323335;
+}
+
+button.ore-ui.gray::before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  width: calc(100% - 6px);
+  height: calc(100% - 6px);
+  top: 0px;
+  border: solid 3px #52575b;
+}
+
+button.ore-ui.purple {
+  position: relative;
+  display: inline-block;
+  padding: 10px 48px;
+  background-color: #7445e6;
+  border: 3px solid #1c1b20;
+  color: white;
+}
+
+button.ore-ui.purple::after {
+  content: '';
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  height: 3px;
+  top: calc(100% - 3px);
+  background-color: #491da9;
+}
+
+button.ore-ui.purple::before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  width: calc(100% - 6px);
+  height: calc(100% - 6px);
+  top: 0px;
+  border: solid 3px #9b6ee6;
+}
