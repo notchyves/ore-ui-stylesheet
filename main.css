@@ -7,6 +7,11 @@
  button.ore-ui::after, is border of inner border (other than bottom)
 */
 
+@font-face {
+  font-family: Minecraftia;
+  src: url('https://raw.githubusercontent.com/asakizuki/3d-totem-generator/main/src/font/minecraft.otf');
+}
+
 button.ore-ui.green {
   position: relative;
   display: inline-block;
@@ -14,6 +19,10 @@ button.ore-ui.green {
   background-color: #3c8526;
   border: 3px solid #191d1e;
   color: white;
+}
+
+button.ore-ui.green:hover {
+  background-color: #2a641c;
 }
 
 button.ore-ui.green::after {
@@ -32,9 +41,13 @@ button.ore-ui.green::before {
   left: 0px;
   right: 0px;
   width: calc(100% - 6px);
-  height: calc(100% - 6px);
+  height: calc(100% - 9px);
   top: 0px;
   border: solid 3px #659f50;
+}
+
+button.ore-ui.green:hover::before {
+  border: solid 3px #7fa277;
 }
 
 button.ore-ui.white {
@@ -44,6 +57,10 @@ button.ore-ui.white {
   background-color: #d0d1d5;
   border: 3px solid #191d1e;
   color: black;
+}
+
+button.ore-ui.white:hover {
+  background-color: #b1b2b5;
 }
 
 button.ore-ui.white::after {
@@ -62,9 +79,13 @@ button.ore-ui.white::before {
   left: 0px;
   right: 0px;
   width: calc(100% - 6px);
-  height: calc(100% - 6px);
+  height: calc(100% - 9px);
   top: 0px;
   border: solid 3px #e5ebeb;
+}
+
+button.ore-ui.white:hover::before {
+  border: solid 3px #efeff0;
 }
 
 button.ore-ui.gray {
@@ -74,6 +95,10 @@ button.ore-ui.gray {
   background-color: #48494d;
   border: 3px solid #191d1e;
   color: white;
+}
+
+button.ore-ui.gray:hover {
+  background-color: #58585a;
 }
 
 button.ore-ui.gray::after {
@@ -92,9 +117,13 @@ button.ore-ui.gray::before {
   left: 0px;
   right: 0px;
   width: calc(100% - 6px);
-  height: calc(100% - 6px);
+  height: calc(100% - 9px);
   top: 0px;
   border: solid 3px #52575b;
+}
+
+button.ore-ui.gray:hover::before {
+  border: solid 3px #79797b;
 }
 
 button.ore-ui.purple {
@@ -104,6 +133,10 @@ button.ore-ui.purple {
   background-color: #7445e6;
   border: 3px solid #1c1b20;
   color: white;
+}
+
+button.ore-ui.purple:hover {
+  background-color: #5d2cc6;
 }
 
 button.ore-ui.purple::after {
@@ -122,7 +155,11 @@ button.ore-ui.purple::before {
   left: 0px;
   right: 0px;
   width: calc(100% - 6px);
-  height: calc(100% - 6px);
+  height: calc(100% - 9px);
   top: 0px;
   border: solid 3px #9b6ee6;
+}
+
+button.ore-ui.purple:hover::before {
+  border: solid 3px #ad69ee;
 }
